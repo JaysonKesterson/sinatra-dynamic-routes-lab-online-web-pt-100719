@@ -10,7 +10,7 @@ class App < Sinatra::Base
     params[:name].reverse
   end
   
-   get "/reversename/:name" do
+   get "/say/:number/:phrase" do
     params[:name].reverse
   end
   
