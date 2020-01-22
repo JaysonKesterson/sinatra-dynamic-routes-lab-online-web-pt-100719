@@ -29,8 +29,8 @@ class App < Sinatra::Base
       @quotient = params[:number1].to_i / params[:number2].to_i
       @quotient.to_s
     elsif params[:operation]== "subtract"
-      @ = params[:number1].to_i + params[:number2].to_i
-      @sum.to_s
+      @difference = params[:number1].to_i - params[:number2].to_i
+      @difference.to_s
     else 
       @sum = params[:number1].to_i + params[:number2].to_i
       @sum.to_s
